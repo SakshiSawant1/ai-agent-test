@@ -72,3 +72,6 @@ No installation is required for this project. It is a standalone Python script.
 | `welcome_message()` | Prints a welcome message to the console. |
 | `add_numbers(a, b)` | Takes two arguments and returns their sum. |
 ```
+
+## Change Log
+* **2026-02-01 (Update)**: code summary: Added a new feature message to the main function.
