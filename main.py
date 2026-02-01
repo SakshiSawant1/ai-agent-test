@@ -5,3 +5,4 @@ def add_numbers(a, b):
     return a + b
 
 welcome_message()
+print("This is a new feature")
