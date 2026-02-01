@@ -18,3 +18,17 @@ Changes:
 +matplotlib
 
 The code was updated to add a new feature in `main.py` that prints a new feature message, modify `utils.py` to have the `welcome_message` function return a string, and add
+
+* **2026-02-01**: File: utils.py
+Changes:
+@@ -2,3 +2,3 @@ def calculate_sum(numbers):
+     return sum(numbers)
+ 
+-def get_average(numbers):
++def get_average(numbers=[]):
+     return sum(numbers) / len(numbers)
+
+- Fix a bug in get_average function by setting a default value for the numbers parameter
+- Add a new feature in main.py to print a welcome message
+
+* Enhanced `main.py` and `utils.py` by adding a new feature to print a welcome message in `main.py`, and improving the `get_average` function in `utils.py` by setting a default value for the `numbers` parameter to handle potential bugs.
